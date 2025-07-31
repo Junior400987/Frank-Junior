@@ -1,0 +1,7 @@
+def login_simulado(usuario, senha):
+    if usuario == "meu_usuario" and senha == "senha123":
+        print("Login bem-sucedido!")
+    else:
+        print("Usuário ou senha incorretos.")
+
+login_simulado("meu_usuario", "senha123")
